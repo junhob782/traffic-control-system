@@ -1,0 +1,19 @@
+# Visual Studio 찌꺼기 제외
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.db
+*.ipch
+*.obj
+*.exe
+
+# Python 찌꺼기 제외
+__pycache__/
+*.pyc
+
+# 리눅스 C++ 빌드 파일 제외
+*.o
+server_run # (우분투 C++ 빌드된 실행파일 이름)
